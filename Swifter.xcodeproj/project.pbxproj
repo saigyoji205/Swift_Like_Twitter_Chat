@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A66436719E8DC170058C272 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66436419E8DC170058C272 /* Bolts.framework */; };
+		5A66436819E8DC170058C272 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66436519E8DC170058C272 /* Parse.framework */; };
+		5A66436919E8DC170058C272 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66436619E8DC170058C272 /* ParseFacebookUtils.framework */; };
+		5A66436B19E8DCD80058C272 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66436A19E8DCD80058C272 /* AudioToolbox.framework */; };
+		5A66436D19E8DE2B0058C272 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66436C19E8DE2B0058C272 /* CFNetwork.framework */; };
+		5A66436F19E8DE350058C272 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66436E19E8DE350058C272 /* CoreGraphics.framework */; };
+		5A66437119E8DE3F0058C272 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66437019E8DE3F0058C272 /* CoreLocation.framework */; };
+		5A66437319E8DE510058C272 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66437219E8DE510058C272 /* libz.dylib */; };
+		5A66437519E8DE5C0058C272 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66437419E8DE5C0058C272 /* MobileCoreServices.framework */; };
+		5A66437719E8DE650058C272 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66437619E8DE650058C272 /* QuartzCore.framework */; };
+		5A66437919E8DE6E0058C272 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66437819E8DE6E0058C272 /* Security.framework */; };
+		5A66437B19E8DE880058C272 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66437A19E8DE880058C272 /* StoreKit.framework */; };
+		5A66437D19E8DE930058C272 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A66437C19E8DE930058C272 /* SystemConfiguration.framework */; };
+		5A66438219E8EAD60058C272 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66438119E8EAD60058C272 /* TimelineTableViewController.swift */; };
+		5A66438419E8EB890058C272 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66438319E8EB890058C272 /* ComposeViewController.swift */; };
+		5A66438619E8EEED0058C272 /* SweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66438519E8EEED0058C272 /* SweetTableViewCell.swift */; };
 		5AFF04EE19E8DB5E0058465F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF04ED19E8DB5E0058465F /* AppDelegate.swift */; };
 		5AFF04F019E8DB5E0058465F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF04EF19E8DB5E0058465F /* ViewController.swift */; };
 		5AFF04F319E8DB5E0058465F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF04F119E8DB5E0058465F /* Main.storyboard */; };
@@ -26,6 +42,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A66436419E8DC170058C272 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		5A66436519E8DC170058C272 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		5A66436619E8DC170058C272 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		5A66436A19E8DCD80058C272 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5A66436C19E8DE2B0058C272 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5A66436E19E8DE350058C272 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A66437019E8DE3F0058C272 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5A66437219E8DE510058C272 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5A66437419E8DE5C0058C272 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5A66437619E8DE650058C272 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5A66437819E8DE6E0058C272 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5A66437A19E8DE880058C272 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5A66437C19E8DE930058C272 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5A66437E19E8DF840058C272 /* Swifter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swifter-Bridging-Header.h"; sourceTree = "<group>"; };
+		5A66438119E8EAD60058C272 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		5A66438319E8EB890058C272 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		5A66438519E8EEED0058C272 /* SweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTableViewCell.swift; sourceTree = "<group>"; };
 		5AFF04E819E8DB5E0058465F /* Swifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFF04EC19E8DB5E0058465F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AFF04ED19E8DB5E0058465F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +76,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A66437D19E8DE930058C272 /* SystemConfiguration.framework in Frameworks */,
+				5A66437B19E8DE880058C272 /* StoreKit.framework in Frameworks */,
+				5A66437919E8DE6E0058C272 /* Security.framework in Frameworks */,
+				5A66437719E8DE650058C272 /* QuartzCore.framework in Frameworks */,
+				5A66437519E8DE5C0058C272 /* MobileCoreServices.framework in Frameworks */,
+				5A66437319E8DE510058C272 /* libz.dylib in Frameworks */,
+				5A66437119E8DE3F0058C272 /* CoreLocation.framework in Frameworks */,
+				5A66436F19E8DE350058C272 /* CoreGraphics.framework in Frameworks */,
+				5A66436D19E8DE2B0058C272 /* CFNetwork.framework in Frameworks */,
+				5A66436B19E8DCD80058C272 /* AudioToolbox.framework in Frameworks */,
+				5A66436819E8DC170058C272 /* Parse.framework in Frameworks */,
+				5A66436719E8DC170058C272 /* Bolts.framework in Frameworks */,
+				5A66436919E8DC170058C272 /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +102,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A66436319E8DC170058C272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A66437219E8DE510058C272 /* libz.dylib */,
+				5A66437019E8DE3F0058C272 /* CoreLocation.framework */,
+				5A66436E19E8DE350058C272 /* CoreGraphics.framework */,
+				5A66436C19E8DE2B0058C272 /* CFNetwork.framework */,
+				5A66436A19E8DCD80058C272 /* AudioToolbox.framework */,
+				5A66437419E8DE5C0058C272 /* MobileCoreServices.framework */,
+				5A66437619E8DE650058C272 /* QuartzCore.framework */,
+				5A66437819E8DE6E0058C272 /* Security.framework */,
+				5A66437A19E8DE880058C272 /* StoreKit.framework */,
+				5A66437C19E8DE930058C272 /* SystemConfiguration.framework */,
+				5A66436419E8DC170058C272 /* Bolts.framework */,
+				5A66436519E8DC170058C272 /* Parse.framework */,
+				5A66436619E8DC170058C272 /* ParseFacebookUtils.framework */,
+			);
+			name = Frameworks;
+			path = "parse-library-1";
+			sourceTree = "<group>";
+		};
 		5AFF04DF19E8DB5E0058465F = {
 			isa = PBXGroup;
 			children = (
+				5A66436319E8DC170058C272 /* Frameworks */,
 				5AFF04EA19E8DB5E0058465F /* Swifter */,
 				5AFF050019E8DB5F0058465F /* SwifterTests */,
 				5AFF04E919E8DB5E0058465F /* Products */,
@@ -77,7 +145,11 @@
 		5AFF04EA19E8DB5E0058465F /* Swifter */ = {
 			isa = PBXGroup;
 			children = (
+				5A66437E19E8DF840058C272 /* Swifter-Bridging-Header.h */,
 				5AFF04ED19E8DB5E0058465F /* AppDelegate.swift */,
+				5A66438119E8EAD60058C272 /* TimelineTableViewController.swift */,
+				5A66438319E8EB890058C272 /* ComposeViewController.swift */,
+				5A66438519E8EEED0058C272 /* SweetTableViewCell.swift */,
 				5AFF04EF19E8DB5E0058465F /* ViewController.swift */,
 				5AFF04F119E8DB5E0058465F /* Main.storyboard */,
 				5AFF04F419E8DB5E0058465F /* Images.xcassets */,
@@ -213,7 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AFF04F019E8DB5E0058465F /* ViewController.swift in Sources */,
+				5A66438219E8EAD60058C272 /* TimelineTableViewController.swift in Sources */,
 				5AFF04EE19E8DB5E0058465F /* AppDelegate.swift in Sources */,
+				5A66438619E8EEED0058C272 /* SweetTableViewCell.swift in Sources */,
+				5A66438419E8EB890058C272 /* ComposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +411,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
 				INFOPLIST_FILE = Swifter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swifter/Swifter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +429,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
 				INFOPLIST_FILE = Swifter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swifter/Swifter-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +495,7 @@
 				5AFF050919E8DB5F0058465F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AFF050A19E8DB5F0058465F /* Build configuration list for PBXNativeTarget "SwifterTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +504,7 @@
 				5AFF050C19E8DB5F0058465F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
